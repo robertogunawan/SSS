@@ -1,0 +1,67 @@
+/***********************/
+/*     Display Styling    */
+/***********************/
+
+.displayMessage {
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-color: #80b3ff;
+    border: 2px solid #002966;
+    border-radius: 5px;
+    width: 97%;
+}
+
+#display{
+  text-indent: 5px;
+  border-radius: 5px 5px 0px 0px;
+  background-color: #c1c5cc; 
+  padding-top: 10px;
+}
+
+#display-content{
+  border: 1px solid #5c5959;
+  overflow-y: scroll;
+  background-color: inherit;
+  height: 45vh;
+  margin-top: 10px;
+  border-top: 0px;
+}
+#display-content > .display-container{
+  border: 1px solid #9b9a9a;
+  border-radius: 0px 0px 5px 5px;
+  padding: 4px;
+  margin: 10px 30px 10px 5px;
+  color: white;
+  
+}
+
+.force-left{
+  float: left;
+  color: #dbdbdb;
+}
+
+.force-right{
+  float: right;
+  color: #dbdbdb;
+}
+
+
+
+/*****************************/
+/*     display's Scroll Bar     */
+/*****************************/
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #cce0ff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #003380;
+    border-radius: 3px;
+}
+

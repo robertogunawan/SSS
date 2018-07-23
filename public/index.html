@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Websocket Demo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+			<div class="jumbotron bg-dark text-white">
+ 				<div class="container-fluid">
+ 				<h1>FallSensor Detector Prototype</h1>
+ 				<p>Fall sensor Detection System</p>
+ 				</div>
+ 		</div>
+   </div>
+
+   <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-5">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" placeholder="Enter Message Here" rows="8"></textarea>
+            <br />
+            <button type="button" class="btn btn-primary " id="send">SEND</button>
+            <button type="button" class="btn btn-warning text-white" id="ping_client">PING</button>
+            <button type="button" class="btn btn-danger text-white force-right" id="clear">CLEAR DISPLAY</button>
+        </div>
+        <div class="col-sm-7">
+            <br />
+            <div id="display" class="bg-info text-white">
+              DISPLAY MESSAGE
+              <br />
+              <div id="display-content" class="bg-light"></div>
+
+            </div>
+        </div>
+      </div>
+    </div>
+   
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+
+</html>
